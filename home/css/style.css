@@ -1,0 +1,103 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+/* COMEÇO DO HEADER */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    border-bottom: solid #32b9cd 3px;
+   
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #32b9cd;
+}
+
+.naveBar {
+    display: flex;
+    color: #bd9762;
+    list-style: none;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #bd9762;
+}
+/* FIM DO HEADER */
+
+/* COMEÇO DO BANNER */
+.banner {
+    background-size: cover;
+    background-image: url(../img/bg-jelly-fish-para_outras_pags.png);
+    width: 100%;
+    height: 450px;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container p {
+    color: white;
+    font-size: 25px;
+    width: 200px;
+}
+
+.banner .container p span {
+    font-weight: 800;
+}
+/* FIM DO BANNER */
+
+/* COMEÇO DO SOCIAL */
+
+.social {
+    background-color: #cdcdcd;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.social .container {
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card h4 {
+    color: #d7427d;
+}
+
+.card p {
+    width: 200px;
+    text-align: center;
+}
